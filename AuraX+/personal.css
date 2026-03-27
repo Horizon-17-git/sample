@@ -1,0 +1,154 @@
+.home {
+  display: flex;
+  background-color: rgb(124, 120, 121);
+  height: 300px;
+  border-radius: 9px;
+  background:
+    linear-gradient(white, rgba(5, 9, 10, 0.5)),
+    url("./Media/videos/images/background.jpg");
+  background-size: cover;
+  background-position: top;
+  margin-top: 0px;
+}
+.home > div img {
+  width: 262px;
+  height: 262px;
+  border-radius: 100px;
+  padding: 15px;
+
+  border-style: outset;
+}
+
+h1 {
+  padding-left: 5px;
+  color: rgb(1, 1, 17);
+  padding-bottom: 23px;
+  font-family: "Gill Sans MT";
+  font-size: 65px;
+  font-weight: 800;
+}
+.p {
+  font-family: noto serif;
+  font-size: 25px;
+  font-weight: bolder;
+  padding-left: 11px;
+  color: rgb(33, 192, 94);
+}
+.mid img {
+  width: 100%;
+  height: 500px;
+  border-radius: 23px;
+}
+.mid h2 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 800;
+  border-left: solid black;
+  border-right: solid black;
+  border-radius: 23px;
+  margin-left: 67px;
+  margin-right: 67px;
+  border-style: double;
+}
+.fa-brands fa-linkedin {
+  font-size: 23px;
+}
+.socials a {
+  margin-left: 23px;
+}
+.socials {
+  padding-left: 30%;
+}
+.pp {
+  color: blue;
+  font-size: 22px;
+  padding-left: 11px;
+  border-left: solid rgb(66, 49, 223);
+  border-radius: 11334551px;
+  border-left-width: 111px;
+  border-left-style: ridge;
+  border-right: solid rgb(66, 49, 223);
+  border-radius: 11334551px;
+  border-right-width: 111px;
+  border-right-style: ridge;
+  margin-right: 223px;
+  padding-left: 52px;
+}
+
+.ppp {
+  padding-left: 2%;
+  font-size: 17px;
+  font-weight: bold;
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+}
+.abt {
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+}
+header div nav ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20% 0 20%;
+  list-style: none;
+}
+header {
+  background-color: rgb(13, 134, 204);
+  width: 100%;
+  height: 45px;
+  margin-bottom: 1px;
+  border-radius: 15px;
+}
+header li {
+  padding-top: 12px;
+}
+header a {
+  color: greenyellow;
+  font-size: 22px;
+}
+footer {
+  background: linear-gradient(white, rgb(118, 197, 250));
+}
+.last h2 {
+  text-align: center;
+  font-size: 41px;
+  font-weight: bold;
+  color: rgb(244, 244, 248);
+  border: solid none;
+  background: linear-gradient(rgb(5, 9, 238), rgb(151, 216, 228));
+  border-radius: 11px;
+  height: 62px;
+
+  font-family: menbere;
+}
+.lastp {
+  color: rgb(15, 1, 12);
+  background: linear-gradient(rgb(89, 184, 221), rgb(15, 8, 26));
+  height: 500px;
+  text-align: center;
+  font-family: Times, serif;
+  font-size: 70px;
+  text-align: center;
+  font-weight: 900;
+  width: 500px;
+  border-bottom-left-radius: 123px;
+  border-top-right-radius: 23px;
+}
+.last {
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-right: 122px;
+}
+.more {
+  display: flex;
+  justify-content: space-between;
+}
+.morep {
+  width: 500px;
+  height: 500px;
+  border-radius: 123px;
+  border: solid rgb(50, 192, 105);
+}
